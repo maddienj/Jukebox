@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <link rel="stylesheet" href="favorite_genre.css">
+    <script src="script.js"></script>
+<body class="page">
+    <div class="title_container">
+        <div class="title"> What's your emotional damage level ? </div>
+    </div>
+    <div class="container">
+        <div class="box" id="box1">
+            <a href="#" onclick="playSong('saygoodbye.mp3')">
+                <img class="outfit1" src="officecrying.gif">
+            </a>
+            <p class="caption">Healing era</p>
+        </div>
+        <div class="box" id="box2">
+            <a href="#" onclick="playSong('knee.mp3')">
+                <img class="outfit2" src="kim.gif">
+            </a>
+            <p class="caption">Crying in the club</p>
+        </div>
+        <div class="box" id="box3">
+            <a href="#" onclick="playSong('shouldvecheated.mp3')">
+                <img class="outfit1" src="menace.gif">
+            </a>
+            <p class="caption">Lover turned menace</p>
+        </div>
+        <div class="audio-container">
+            <audio id="audioPlayer" controls>
+                <source id="audioSource" src="" type="audio/mp3">
+                Your browser does not support the audio tag.
+            </audio>
+        </div>
+
+    </div>
+</body>
+</html>

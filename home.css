@@ -1,0 +1,31 @@
+
+.home_page {
+  
+        background-image: url(background.webp);
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center center; 
+}
+    
+
+
+.container {
+    color:  #0b0c0c; 
+    display: flex;
+    height: 500px; 
+    flex-direction: column;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; 
+    padding: 100px;
+    gap: 1px;
+    
+}
+
+
+.play_button {
+    background-color: #0d0d0e;
+    color: #FFFFFF;
+    padding: 18px;
+    border-radius: 17px;
+}
+
