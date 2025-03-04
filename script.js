@@ -1,9 +1,9 @@
-function playSong(mp3File) {
-    let audioPlayer = document.getElementById("audioPlayer");
-    let audioSource = document.getElementById("audioSource");
+function playSong(mp3File) { // pass in the song given by the html file 
+    let audioPlayer = document.getElementById("audioPlayer"); //retrieves html stuff w the specified id values 
+    let audioSource = document.getElementById("audioSource"); //assigns them to JavaScript variables to manipulate it >>
 
-    // Set the new song source
-    audioSource.src = mp3File;
-    audioPlayer.load(); // Reload the audio player to apply changes
-    audioPlayer.play(); // Auto-play the song
+    // audio and source defined in the html files 
+    audioSource.src = mp3File; // uses the argument ^
+    audioPlayer.load(); // reloads it
+    audioPlayer.play(); 
 }
