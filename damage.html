@@ -24,6 +24,7 @@
             </a>
             <p class="caption">Crying in the club</p>
         </div>
+       
         <div class="box" id="box3">
             <a href="#" onclick="playSong('shouldvecheated.mp3')">
                 <img class="outfit1" src="menace.gif">
@@ -31,7 +32,11 @@
             <p class="caption">Lover turned menace</p>
         </div>
         
-
+        <div class="audio-container"> <!-- audio tag creates a new audio player, but src empty until triggered w specified song in js -->
+            <audio id="audioPlayer" controls> 
+                <source id="audioSource" src="" type="audio/mp3">
+            </audio>
+        </div>
     </div>
 </body>
 </html>
